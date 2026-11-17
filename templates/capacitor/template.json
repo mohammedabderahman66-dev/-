@@ -1,0 +1,7 @@
+{
+  "name": "capacitor",
+  "description": "قالب Capacitor المختبَر (نسخة من المستودع عند cba1fbe، بنجاح بناء Actions). لا يُعدَّل يدوياً إلا بعد نجاح بناء مماثل.",
+  "sentinels": { "appId": "com.mohammed.appforgetest", "appName": "AppForge Test" },
+  "contentDir": "www",
+  "notes": "التوليد يستبدل محتوى www/ فقط، ويستبدل appId/appName عبر engine/scaffold.mjs"
+}

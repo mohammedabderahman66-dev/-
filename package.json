@@ -2,7 +2,9 @@
   "name": "appforge-test",
   "version": "1.0.0",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "test": "node --test engine/select-stack.test.mjs engine/tests/device-flow.test.mjs engine/tests/scaffold.test.mjs"
+  },
   "dependencies": {
     "@capacitor/core": "^6.1.2",
     "@capacitor/android": "^6.1.2"

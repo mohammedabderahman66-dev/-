@@ -1,0 +1,6 @@
+{
+  "appId": "com.mohammed.appforgetest",
+  "appName": "AppForge Test",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}
