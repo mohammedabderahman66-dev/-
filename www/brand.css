@@ -1,0 +1,24 @@
+/* Warsha — المصدر الوحيد للألوان والخطوط. لا تكتب قيماً مباشرة داخل الشاشات؛ استخدم المتغيرات. */
+@font-face{font-family:"Reem Kufi";font-weight:700;font-display:swap;src:url("fonts/reemkufi-bold.woff2") format("woff2")}
+@font-face{font-family:"IBM Plex Sans Arabic";font-weight:400;font-display:swap;src:url("fonts/plex-ar-regular.woff2") format("woff2")}
+@font-face{font-family:"IBM Plex Sans Arabic";font-weight:500;font-display:swap;src:url("fonts/plex-ar-medium.woff2") format("woff2")}
+
+:root{
+  --ink:#0E1116;      /* الخلفية الأساسية */
+  --surface:#171C24;  /* البطاقات والأسطح */
+  --copper:#E8742B;   /* الأساسي: شعار، أزرار، عناوين كبيرة فقط */
+  --teal:#2DBFA3;     /* الثانوي والنجاح؛ يصلح لنص صغير */
+  --paper:#F6F1E9;    /* النص الأساسي */
+  --muted:#9AA4B2;    /* نص ثانوي */
+  --radius:16px;
+  --font-display:"Reem Kufi","IBM Plex Sans Arabic",system-ui,sans-serif;
+  --font-body:"IBM Plex Sans Arabic",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-mono:ui-monospace,"JetBrains Mono",Menlo,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:var(--ink);color:var(--paper);font-family:var(--font-body);font-weight:400;line-height:1.7}
+h1,h2,h3{font-family:var(--font-display);font-weight:700;margin:0}
+.btn{font:500 1rem var(--font-body);background:var(--copper);color:var(--ink);border:0;border-radius:var(--radius);padding:.85rem 1.4rem;min-height:48px}
+.card{background:var(--surface);border-radius:var(--radius);padding:1.25rem}
+.muted{color:var(--muted)}

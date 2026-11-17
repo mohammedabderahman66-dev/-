@@ -3,8 +3,8 @@
 ![Warsha banner](./assets/banner.svg)
 
 [![Build APK](https://github.com/mohammedabderahman66-dev/-/actions/workflows/build-apk.yml/badge.svg)](https://github.com/mohammedabderahman66-dev/-/actions/workflows/build-apk.yml)
-![License](https://img.shields.io/badge/license-see--LICENSE-informational)
-![Status](https://img.shields.io/badge/status-early%20development-orange)
+![License](https://img.shields.io/badge/license-see--LICENSE-2DBFA3)
+![Status](https://img.shields.io/badge/status-early%20development-E8742B)
 
 </div>
 
