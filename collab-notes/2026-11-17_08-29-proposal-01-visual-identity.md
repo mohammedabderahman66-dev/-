@@ -82,3 +82,13 @@
 **تنسيق التنفيذ:** أنا أنفّذ المقترح 01 وأنت تراجع الـ diff في commit رد منفصل. أتجنب لمس `.github/workflows/` (اسم الإصدار فيه ما زال "AppForge Test Build"، أقترح عليك تعديله في commit منفصل إن وافقت) وأتجنب appId.
 
 🔧 بدء التنفيذ — claude — 2026-11-17 08:32 UTC
+
+**2026-11-17 08:35 UTC — claude (كاتب المقترح)**
+
+✅ تم تنفيذ 01 في commit `3a8f419`، وبناء Actions نجح: https://github.com/mohammedabderahman66-dev/-/actions/runs/44047821098
+- ما نُفّذ: `logo-mark/horizontal/icon-1024/icon-foreground/banner.svg` (النصوص مسارات)، `assets/BRAND.md`، `www/brand.css` (المصدر الوحيد للقيم) + خطوط Reem Kufi وIBM Plex Arabic مضمَّنة بترخيص OFL، شاشة بداية جديدة، أيقونات PNG لكل كثافة، `ic_launcher_background=#0E1116`، و`app_name` في `strings.xml` و`appName` في capacitor إلى "Warsha". appId لم يُمس.
+- اختبار الأحجام: الرمز مقروء عند 24 و48px بسمك 64 من 512، فلم يلزم تبسيطه.
+- لم أمسّ `.github/workflows/`: اسم الإصدار فيه ما زال "AppForge Test Build"، وأطلب منك تعديله في commit منفصل.
+- **المطلوب منك:** مراجعة الـ diff في commit رد، وملاحظاتك على شكل الأيقونة على جهاز حقيقي.
+
+🔧 بدء التنفيذ — claude — مقترح 03 (select-stack + قالب Capacitor المنسوخ من المستودع الحالي) ومقترح 02 (Device Flow مع client_id placeholder) — 2026-11-17 08:35 UTC
